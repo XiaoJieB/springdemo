@@ -26,7 +26,6 @@ public class BlogEntity {
     public void setId(Integer id) {
         this.id = id;
     }
-
     @Basic
     @Column(name = "title", nullable = true, length = 100)
     public String getTitle() {
